@@ -1,6 +1,6 @@
 body {
-  background-color: #283747;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 h1,
@@ -9,11 +9,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: white;
 }
 
 a {
-  color: #1e1e1e;
+  color: black;
   transition: all 0.5s ease-in-out;
 }
 
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .color-text-a {
-  color: #4e4e4e;
+  color: white;
 }
 
 .box-shadow,
@@ -79,7 +79,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #212F3C;
+  background-color: black;
 }
 
 .overlay-mf {
@@ -95,6 +95,7 @@ a:hover {
 .paralax-mf {
   position: relative;
   padding: 8rem 0;
+  background-color: black;
 }
 
 
@@ -127,7 +128,7 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: white;
   font-size: 1.1rem;
 }
 
@@ -144,13 +145,13 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #a9a9a9;
+  color: white;
 }
 
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: red;
+  background-color: white;
   margin: 0 auto;
 }
 
@@ -169,7 +170,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color:red;
+  background-color: red;
   width: 100px;
   bottom: -12px;
 }
@@ -183,7 +184,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #1c2c34;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -206,13 +207,15 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px red;
+  box-shadow: 0 0 0 3px black;
   transition: all 500ms ease;
+  background-color: black;
+  color: white;
 }
 
 .socials .ico-circle:hover {
-  background-color: red;
-  color: #fff;
+  background-color: white;
+  color: black;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
@@ -236,7 +239,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: red;
+  color: white;
   margin-right: 10px;
 }
 
@@ -250,7 +253,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px red ;
+  box-shadow: 0 0 0 10px white ;
   display: block;
 }
 
@@ -316,7 +319,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: red;
+  background: white;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -332,7 +335,7 @@ a:hover {
 
 .back-to-top i {
   padding-top: 12px;
-  color: #fff;
+  color: black;
 }
 
 /* Prelaoder */
@@ -429,7 +432,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #a9a9a9;
+  color: #114488;
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before,
@@ -453,7 +456,7 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #a9a9a9;
+  color: #114488;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
@@ -479,7 +482,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: red;
+  color: #114488;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
@@ -522,7 +525,7 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: red;
+  background-color: #114488;
   color: #fff;
   transition: all 500ms ease;
 }
@@ -658,12 +661,13 @@ a:hover {
 }
 
 /*======================================
-//--//-->   ABOUT
+ABOUT ME
 ======================================*/
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  color: white
 }
 
 .about-mf .about-img {
@@ -675,7 +679,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: white;
 }
 
 .skill-mf .progress {
@@ -687,7 +691,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: green;
+  background-color: darkgreen;
 }
 
 /*======================================
@@ -695,22 +699,23 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #767676;
+  background-color: #1c2c34;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  color: white;
 }
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #fff;
-  background-color: blue;
+  color: black;
+  background-color: white;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: white;
 }
 
 .service-box .ico-circle {
@@ -726,7 +731,7 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: white;
 }
 
 /*======================================
@@ -762,7 +767,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #1c2c34;
 }
 
 .work-box:hover img {
@@ -842,7 +847,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: darkgoldenrod;
+  color: black;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -929,7 +934,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid red;
+  border-left: 4px solid white;
   margin-top: 1rem;
 }
 
@@ -939,11 +944,11 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: red;
+  color: white;
 }
 
 .blog-wrapper .post-meta ul span {
-  color: #1e1e1e;
+  color: black;
 }
 
 .blog-wrapper .blockquote {
@@ -983,7 +988,7 @@ a:hover {
 }
 
 .box-comments .list-comments span {
-  color: #1e1e1e;
+  color: white;
   font-style: italic;
 }
 
@@ -1116,7 +1121,7 @@ footer .credits a {
 }
 
 /*======================================
-//--//-->   BUTTON
+                BUTTON
 ======================================*/
 
 .button {
@@ -1140,13 +1145,13 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: black;
-  color: #fff;
+  background-color: white;
+  color: black;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: red;
+  background-color: black;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -1177,6 +1182,7 @@ footer .credits a {
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
+    background-color: black;
   }
 
   .card-blog {
