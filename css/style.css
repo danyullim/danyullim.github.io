@@ -170,7 +170,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: red;
+  background-color: white;
   width: 100px;
   bottom: -12px;
 }
@@ -489,11 +489,11 @@ a:hover {
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: blue;
+  color: white;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: blue;
+  color: white;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -804,7 +804,7 @@ ABOUT ME
 }
 
 .work-content .w-like a {
-  color: red;
+  color: white;
 }
 
 .work-content .w-like .num-like {
@@ -984,7 +984,7 @@ ABOUT ME
 }
 
 .box-comments .list-comments a {
-  color: red;
+  color: white;
 }
 
 .box-comments .list-comments span {
@@ -1113,7 +1113,7 @@ footer .credits a {
 }
 
 .validation {
-  color: red;
+  color: white;
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
